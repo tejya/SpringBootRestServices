@@ -75,6 +75,7 @@ public class UserController {
 
 		} catch (Exception e) {
 			// return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
+			
 			throw new Exception("User is not found in database");
 
 		}
